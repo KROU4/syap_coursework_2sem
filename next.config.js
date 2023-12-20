@@ -8,8 +8,9 @@ module.exports = {
 	nextConfig,
 
 	experimental: {
-        images: {
-            unoptimized: true
-        }
-    }
+		images: {
+			loader: 'akamai',
+			path: '',
+		  }
+		}
 }
