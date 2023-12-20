@@ -2,7 +2,7 @@
   "name": "krou4-next",
   "version": "1.8.0",
   "private": true,
-  "homepage": "https://KROU4.github.io/syap_coursework_2sem",
+  "homepage": "https://krou4.github.io/syap_coursework_2sem/",
   "scripts": {
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
