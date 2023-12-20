@@ -4,13 +4,10 @@ const nextConfig = {
 	productionBrowserSourceMaps: true,
 };
 
-module.exports = {
-	nextConfig,
-
-	experimental: {
-		images: {
-			loader: 'akamai',
-			path: '',
-		  }
-		}
-}
+module.exports = 
+{
+	images: {
+	  unoptimized: true,
+	}, 
+	nextConfig
+  }
