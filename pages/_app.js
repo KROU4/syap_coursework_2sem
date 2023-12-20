@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import { MetaMaskProvider } from "metamask-react";
 import Meta from "../components/Meta";
 import UserContext from "../components/UserContext";
-import { useRef } from "react";
+import { useRef } from "react"
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
