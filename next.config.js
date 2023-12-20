@@ -7,8 +7,9 @@ const nextConfig = {
 module.exports = 
 {
 	images: {
-		loader: 'akamai',
+		loader: 'cloudinary',
 		path: '',
 	}, 
 	nextConfig
   }
+  
